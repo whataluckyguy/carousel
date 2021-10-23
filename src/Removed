@@ -1,0 +1,94 @@
+<div className="container">
+              <div className="row home-row" ref={refRowHome}>
+                <div className="col-12 d-block d-md-none">
+                  <NavLink to="/">
+                    <img
+                      alt="mobile hero"
+                      className="mobile-hero"
+                      src="https://res.cloudinary.com/uploadfiles/image/upload/v1611636026/11-2-plane-picture_e9lmjw.png"
+                    />
+                  </NavLink>
+                </div>
+                {/* Start of the section */}
+                <div className="col-12 col-xl-5 col-lg-6 col-md-6">
+                  <div className="home-text">
+                    <h2
+                      className="slider-text"
+                      style={{
+                        color: "#fff",
+                        marginBottom: "10px",
+                        fontWeight: "700",
+                      }}
+                    >
+                      A PERSONAL TRAVEL ASSISTANT FOR YOUR ORGANISATION
+                    </h2>
+                    <p className="white mb-5 fontp">
+                      A world class travel agency combined with a
+                      state-of-the-art travel platform to keep your employees
+                      organised and your travel costs low
+                    </p>
+                    {/* eslint-disable-next-line react/jsx-no-target-blank */}
+                    <NavLink
+                      className="mr-2 mb-2 Enquiryclass"
+                      to="/user/enquiry"
+                      /*  onClick={(event) => scrollTo(event, 'themes')} */
+                    >
+                      Enquire Now{" "}
+                      {/* <i className="simple-icon-arrow-right" /> */}
+                    </NavLink>
+                    <p className="mt-4">
+                      Already have an account?{" "}
+                      <NavLink style={{ color: "#fff" }} to="/user/login">
+                        Sign In
+                      </NavLink>
+                    </p>
+                  </div>
+                </div>
+                {/* End of the section */}
+                <div className="col-12 col-xl-6  col-lg-6 col-md-6 d-none d-md-block">
+                  {/* eslint-disable-next-line react/jsx-no-target-blank */}
+                  <a /* href={adminRoot} */ target="_blank">
+                    <img
+                      alt="hero"
+                      /* width="900" height="600" */
+                      src="https://res.cloudinary.com/uploadfiles/image/upload/v1611636026/11-2-plane-picture_e9lmjw.png"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              {/*  <div className="row">
+                <div className="col-12 p-0">
+                  <div className="home-carousel">
+                    <GlideComponent settings={slideSettings}>
+                      {slideItems.map((f, index) => (
+                        // eslint-disable-next-line react/no-array-index-key
+                        <div key={`slide_${index}`} className="card">
+                          <div className="card-body text-center">
+                            <div>
+                              <i className={`${f.icon} large-icon`} />
+                              <h5 className="mb-3 font-weight-semibold">
+                                {f.title}
+                              </h5>
+                            </div>
+                            <div>
+                              <p className="detail-text">{f.detail}</p>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </GlideComponent>
+                  </div>
+                </div>
+              </div> */}
+
+              {/* <div className="row">
+                <a
+                  className="btn btn-circle btn-outline-semi-light hero-circle-button"
+                  href="#scroll"
+                  onClick={(event) => scrollTo(event, 'features')}
+                >
+                  <i className="simple-icon-arrow-down" />
+                </a>
+              </div> */}
+            </div>

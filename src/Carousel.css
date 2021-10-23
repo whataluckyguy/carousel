@@ -1,0 +1,45 @@
+.carousel {
+  overflow: hidden;
+}
+.inner {
+  white-space: nowrap;
+  transition: transform 0.5s;
+}
+.carouselItem {
+  display: inline-flex;
+  align-items: center;
+  /* justify-content: center; */
+  height: 450px;
+  /* background-color: green; */
+  /* color: white; */
+}
+
+.indicators {
+  display: none;
+  justify-content: center;
+}
+.indicators > button {
+  margin: 5px;
+}
+.indicators > button.active {
+  background-color: green;
+  color: white;
+}
+.carouselItem > img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+.gradient {
+  height: 450px;
+  width: 60vw;
+  z-index: 10;
+  position: absolute;
+}
+.gradientLeft {
+  height: 459px;
+  width: 60vw;
+  z-index: 10;
+  position: absolute;
+  margin-left: 40vw;
+}
