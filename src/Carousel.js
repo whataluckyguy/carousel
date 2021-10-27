@@ -7,6 +7,7 @@ const Carousel = ({
   gradientColor,
   textColor,
   direction,
+  margin,
 }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -90,6 +91,7 @@ export const CarouselItem = ({
   gradientColor,
   textColor,
   direction,
+  margin,
 }) => {
   return (
     <div className="carouselItem" style={{ width: width }}>
@@ -102,8 +104,15 @@ export const CarouselItem = ({
       >
         <h1>Hello World</h1>
       </div>
-
-      <img src={children} alt="Travel Quail" />
+      <div className="image">
+        <img
+          src={children}
+          alt="Travel Quail"
+          style={{
+            marginLeft: `${margin}`,
+          }}
+        />
+      </div>
     </div>
   );
 };

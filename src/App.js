@@ -14,6 +14,7 @@ function App() {
               textColor={item.textColor}
               isReverse={item.isReverse}
               direction={item.direction}
+              margin={item.margin}
             />
           );
         })}

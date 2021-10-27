@@ -25,7 +25,10 @@
   background-color: green;
   color: white;
 }
-.carouselItem > img {
+.image {
+  width: 60vw;
+}
+.image > img {
   height: 450px;
   width: 100%;
   object-fit: cover;
@@ -37,7 +40,7 @@
   position: absolute;
 }
 .gradientLeft {
-  height: 459px;
+  height: 450px;
   width: 60vw;
   z-index: 10;
   position: absolute;

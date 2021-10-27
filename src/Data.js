@@ -6,6 +6,7 @@ export const sliderData = [
     textColor: "fff",
     isReverse: "gradient",
     direction: "90deg",
+    margin: "40vw",
   },
   {
     imageURL:
@@ -14,6 +15,7 @@ export const sliderData = [
     textColor: "28538C",
     isReverse: "gradient",
     direction: "90deg",
+    margin: "40vw",
   },
   {
     imageURL:
@@ -22,6 +24,7 @@ export const sliderData = [
     textColor: "fff",
     isReverse: "gradient",
     direction: "90deg",
+    margin: "40vw",
   },
   {
     imageURL:
@@ -30,6 +33,7 @@ export const sliderData = [
     textColor: "fff",
     isReverse: "gradient",
     direction: "90deg",
+    margin: "40vw",
   },
   {
     imageURL:
@@ -38,6 +42,7 @@ export const sliderData = [
     textColor: "28538C",
     isReverse: "gradientLeft",
     direction: "-90deg",
+    margin: "0",
   },
   {
     imageURL:
@@ -46,5 +51,6 @@ export const sliderData = [
     textColor: "fff",
     isReverse: "gradient",
     direction: "90deg",
+    margin: "40vw",
   },
 ];
